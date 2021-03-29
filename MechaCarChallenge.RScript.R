@@ -23,6 +23,9 @@ lot_summary <- SCoil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PS
 t.test(SCoil_table$PSI,mu = 1500)
 
 # Write 3 more RScripts to determine if PSI for each manufacturing lot is statistically diff from the pop mean of 1,500 lbs per sq inch.
-t.test(lot_summary$Manufacturing_Lot=="Lot1",mu = 1500)
-t.test(lot_summary$Manufacturing_Lot=="Lot2",mu = 1500)
-t.test(lot_summary$Manufacturing_Lot=="Lot3",mu = 1500)
+lot1 <- subset(SCoil_table, Manufacturing_Lot=='Lot1') # Create subset for lot 1 cars
+t.test(x=lot1$PSI, mu=1500) # t-test on lot 1 cars' PSI with a mean of 1500
+lot2 <- subset(SCoil_table, Manufacturing_Lot=='Lot2') # Create subset for lot 2 cars
+t.test(x=lot2$PSI, mu=1500) # t-test on lot 2 cars' PSI with a mean of 1500
+lot3 <- subset(SCoil_table, Manufacturing_Lot=='Lot3') # Create subset for lot 3 cars
+t.test(x=lot$PSI, mu=1500) # t-test on lot 3 cars' PSI with a mean of 1500
