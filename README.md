@@ -21,8 +21,13 @@ The total_summary statistics showed that lot #2 has the closest standard deviati
 Since the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch, the current manufacturing data does meet this design specification for all manufacturing lots in total (total_summary) with a variance of 62.3 pounds per sq. inch. When each lot was reviewed individually (lot_summary), only lot #1 (variance = 0.98 pounds per sq. inch) and lot #2 (variance 7.57 pounds per sq. inch) met this specification. Lot #3 showed too high of a variance with a result of 170.29 pounds per sq. inch.
 
 ## T-Tests on Suspension Coils
-The t-test results on the three manufacturing lots showed that the PSI for each  lot is not statistically different from the population mean of 1,500 pounds per square inch. 
+The t-test results on the three manufacturing lots showed that the lot 3 has the smallest statistical difference from the population mean of 1,500 pounds per square inch. 
 
+# Lot 1
 <img width="402" alt="Lot1_t-test_D3" src="https://user-images.githubusercontent.com/74223626/112904599-cb08e880-90ae-11eb-8d90-bb53a0db3aca.png">
 
+# Lot 2
+<img width="399" alt="Lot2_t-test_D3" src="https://user-images.githubusercontent.com/74223626/112904817-233fea80-90af-11eb-9016-60db315ab1d4.png">
 
+# Lot 3
+<img width="407" alt="Lot3_t-test_D3" src="https://user-images.githubusercontent.com/74223626/112904854-32bf3380-90af-11eb-9502-c6d6276eebf4.png">
