@@ -1,9 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-The output from the multiple linear regression showed p-values for all six(6) variables in the MechaCar dataset, which included vehicle length, vehicle weight, ground clearance, spoiler angle, and all-wheel-drive status. 
-
-<img width="499" alt="Summary_LR_Model_MechaCar_Module_15" src="https://user-images.githubusercontent.com/74223626/112860379-5f585880-9079-11eb-851d-afed493
+The output from the multiple linear regression showed p-values for all six(6) variables in the MechaCar dataset, which included vehicle length, vehicle weight, ground clearance, spoiler angle, and all-wheel-drive status.
 
 1) The vehicle length and ground clearance variables/coefficients provided a significant, non-random amount of variance to the mpg values in the MechaCar dataset.  The vehicle weight showed a p-value of 0.08 which is not as significant since there is still an 8% chance that the null hypothesis is true.
 2) The slope of the linear model for these non-random variables are not considered to be zero because if there is a significant linear relationship between the independent variable and the dependent variable, the slope will not equal zero.
