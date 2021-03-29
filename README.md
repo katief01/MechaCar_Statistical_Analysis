@@ -10,7 +10,7 @@ The output from the multiple linear regression showed p-values for all six(6) va
 3) This linear model effectively predicts mpg of MechaCar prototypes based on these specific variables, vehicle length, ground clearance, and possibly weight. 
 
 ## Summary Statistics on Suspension Coils
-The lot_summary statistics created in this challenged showed a very similar mean and median among the 3 lots of MetaCars.  These statistics also showed a more signficant difference between the PSI variance and Standard Deviation.  
+The lot_summary statistics created in this challenge showed a very similar mean and median among the 3 lots of MetaCars yet showed a wide difference between the PSI variance and Standard Deviation among the 3 lots of MetaCars.  
 
 <img width="597" alt="lot_summary_MechaCar_Challenge" src="https://user-images.githubusercontent.com/74223626/112872451-06db8800-9086-11eb-9bb1-5eb70cddf0aa.png">
 
@@ -19,3 +19,7 @@ The total_summary statistics showed that lot #2 has the closest standard deviati
 <img width="478" alt="total_summary_MechaCar_Challenge" src="https://user-images.githubusercontent.com/74223626/112872568-24a8ed00-9086-11eb-94ea-51836ec6596b.png">
 
 Since the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch, the current manufacturing data does meet this design specification for all manufacturing lots in total (total_summary) with a variance of 62.3 pounds per sq. inch. When each lot was reviewed individually (lot_summary), only lot #1 (variance = 0.98 pounds per sq. inch) and lot #2 (variance 7.57 pounds per sq. inch) met this specification. Lot #3 showed too high of a variance with a result of 170.29 pounds per sq. inch.
+
+## T-Tests on Suspension Coils
+The t-test results on the various manufacturing lots showed that the PSI for each manufacturing lot is not statistically different from the population mean of 1,500 pounds per square inch. 
+
