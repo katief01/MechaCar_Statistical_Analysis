@@ -31,3 +31,13 @@ The t-test results on the three manufacturing lots showed that lot 3 has the sma
 
 # Lot 3
 <img width="407" alt="Lot3_t-test_D3" src="https://user-images.githubusercontent.com/74223626/112904854-32bf3380-90af-11eb-9502-c6d6276eebf4.png">
+
+## Study Design: MechaCar vs Competition
+
+A statistical study that I would design to quantify how the MechaCar performs against the competition would include the following metrics:
+* cost
+* city and highway fuel efficiency
+* horse power
+* safety rating
+
+I would perform tests comparing the average cost, miles per gallon, horse power and safety rating for this study. An alternative hypothesis in the study could be that if we have a high fuel economy, we will have a high safety rating on our vehicles. To test this I would perform a two-sample t-test to compare the mean fuel economy with the mean safety rating of the vehicles. I would need the fuel economy metrics for all vehicles as well as the safety rating metrics for all vehicles.
